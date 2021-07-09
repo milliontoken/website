@@ -1,10 +1,19 @@
 html, body{
   height: 100%;
   width: 100%;
-  font-family: 'Poppins-extralight', 'Poppins', sans-serif;
 }
 
 body{
   background: #efefef;
   margin: 0;
+}
+
+@font-face {
+  font-family: "Orkney-bold";
+  src: local("Orkney Bold"), url("./assets/fonts/Orkney Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: "Orkney";
+  src: local("Orkney Regular"), url("./assets/fonts/Orkney Regular.woff2") format("truetype");
 }
