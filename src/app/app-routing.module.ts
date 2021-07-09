@@ -16,18 +16,6 @@ const routes: Routes = [
                 component: HomePage
             },
             {
-                path: 'contact',
-                component: ContactPage
-            },
-            {
-                path: 'about',
-                component: AboutPage
-            },
-            {
-                path: 'blog',
-                component: BlogPage
-            },
-            {
                 path: '**',
                 redirectTo: 'home'
             }
