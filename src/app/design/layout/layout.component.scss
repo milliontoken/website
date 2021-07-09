@@ -1,0 +1,13 @@
+.layout {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%
+}
+
+.responsive-padding{
+  padding: 0 2rem;
+  @media only screen and (max-width: 600px) {
+    padding: 0 1rem;
+  }
+}
