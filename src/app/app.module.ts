@@ -9,6 +9,7 @@ import {HomePage} from './pages/home/home.page';
 import {FooterComponent} from './design/footer/footer.component';
 import {LogoComponent} from './design/header/logo/logo.component';
 import {FlexLayoutModule, FlexModule} from "@angular/flex-layout";
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,8 @@ import {FlexLayoutModule, FlexModule} from "@angular/flex-layout";
         HeaderComponent,
         FooterComponent,
         LogoComponent,
-        HomePage
+        HomePage,
+        ButtonComponent
     ],
     imports: [
         BrowserModule,
