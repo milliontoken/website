@@ -1,0 +1,49 @@
+@import '../../../styles/variables.scss';
+
+:host {
+    background-color: white;
+
+    .container-title {
+        text-align: center;
+        font-size: $font-extra-huge;
+        font-weight: bold;
+        margin: 36px 0 46px;
+    }
+    
+    .column-groups {
+        justify-content: space-between;
+        height: 600px;
+    
+        .group {
+            .title {
+                color: $mustard;
+                font-size: $font-medium;
+                line-height: normal;
+            }
+        
+            .description {
+                overflow-wrap: break-word;
+                text-align: start;
+                font-size: $font-small;
+                letter-spacing: $letter-spacing-large;
+                line-height: $font-line-height-medium;
+            }
+
+            .property-button {
+                border-radius: 15px;
+                -webkit-border-radius: 15px;
+                -moz-border-radius: 15px;
+                -ms-border-radius: 15px;
+                -o-border-radius: 15px;
+                height: 40px;
+                width: 117px;
+                font-size: $font-tiny;
+                background-color: $whisper;
+                border: none;
+                font-weight: bold;
+                text-transform: capitalize;
+            }
+        }
+    }
+
+}
